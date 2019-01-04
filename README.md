@@ -3,7 +3,7 @@ This is a **basic messaging application** that uses **socket programming** to co
 
 A new **thread** is created in the server for each client that runs. For simplicity, a unique username is associated with every client. To receive messages in real-time (i.e. recieve messages without waiting for input), a seperate thread is created in the client to grab input from the console while **main** may still listen for messages and print them.
 
-# Instructions
+## Instructions
 Compile the server and chatroom class, run the server with port number 3000:
 ./server 3000
 
